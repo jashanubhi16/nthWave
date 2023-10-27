@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
+
+body{
+	margin:20px 170px;
+	padding:0;
+	font-family:'PT Sans Narrow',sans-serif;
+	background-attachment:fixed;
+	letter-spacing:0.5;
+
+}
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:20px;
+}
+li a{
+	text-decoration:none;
+	float:right;
+	text-align:center;
+	padding:5px 20px;
+	font-size:1.2em;
+	color:#000;
+	letter-spacing:2px;
+}
+li a:hover{
+	background-color:black;
+	color:white;
+	margin:2px;
+	transition:0.7s;
+}
+.active{
+	background-color:black;
+	color:white;
+}
+.maintext{
+	font-weight:400;
+	font-size:1.2em;
+}
+.readmore{
+	color:white;
+	background-color:black;
+	text-decoration:none;
+	padding:10px 20px;
+	font-size:1.2em;
+	font-weight:700;
+}
+.animationbig{
+	position: fixed;
+	opacity: 25%;
+	bottom: -150px;
+	right: 40%;
+	width: 250px;
+	height: 250px;
+	border: 40px solid #000;
+	animation: rotate 40s linear infinite, fadeIn 1s linear forwards;
+	animation-delay: 0s;
+}
+.animationsmall{
+	position: fixed;
+	left: -10px;
+	top: 40%;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #000;
+	animation: rotate 30s linear infinite, fadeIn 1s linear forwards;
+	animation-delay: 0s;
+}
+@keyframes rotate
+{
+	0%
+	{
+		transform: rotate(45deg);
+	}
+	100%
+	{
+		transform: rotate(405deg);
+	}
+}
+.maintextm1{
+	font-weight:400;
+	font-size:1.2em;
+	padding:60px;
+}
+.endsection{
+	background-color:black;
+	text-align:center;
+	vertical-align:middle;
+	color:white;
+	font-weight:bold;
+	padding:100px;
+	font-size:50;
+}
+.articles{
+	border:5px solid black;
+	padding:30px;
+	font-weight:bold;
+	font-size:40;
+	padding-left:20;
+}
+.articles:hover{
+	background-color:black;
+	color:white;
+	transition:0.5s;
+}
+.articles a{
+	text-decoration:none;
+	color:black;
+}
+.articles a:hover{
+	background-color:black;
+	color:white;
+	transition:0.5s;
+}
+.visitus{
+	font-size:50px;
+	text-align:center;
+}
+.visitusimgi{
+	height:120px;
+	width:140px;
+	margin-left:225px;
+	display:inline-block;
+}
+.visitusimgf{
+	width:140px;
+	height:120px;
+	display:inline-block;
+}
+.visitusimgt{
+	width:140px;
+	height:120px;
+	display:inline-block;
+}
+.visitusimgy{
+	width:140px;
+	height:120px;
+	display:inline-block;
+}
+.visitushov img:hover{
+    width:150px;
+	height:130px;
+}
+.signupbg{
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.signupmain{
+	width:40%;
+	height:30%;
+	position:absolute;
+	background-color:blue;
+	bottom:20;
+	
+}
